@@ -30,6 +30,8 @@ export const filterData = <T extends DbData>(
 
         return true;
       }
+
+      return true;
     });
   });
 };
